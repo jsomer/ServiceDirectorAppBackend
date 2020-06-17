@@ -13,8 +13,6 @@ mobileApp.tables.add('ServiceItems');
 mobileApp.tables.add('Service'); 
 mobileApp.tables.add('Tool'); 
 mobileApp.tables.add('Material'); 
-
-
-
+mobileApp.tables.add('ServiceItem'); 
 app.use(mobileApp);
 app.listen(process.env.PORT || 3000);

@@ -15,4 +15,6 @@ mobileApp.tables.add('Tool');
 mobileApp.tables.add('Material'); 
 mobileApp.tables.add('ServiceItem'); 
 mobileApp.tables.add('Manufacturer'); 
+
+app.use(mobileApp);
 app.listen(process.env.PORT || 3000);
